@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <label for="first_name">First Name: *</label>
+    <input type="text" name="first_name" id="first_name">
+    <br><br>
+    <label for="last_name">Last Name: *</label>
+    <input type="text" name="last_name" id="last_name">
+    <br><br>
+    <label for="email">Email Address: *</label>
+    <input type="text" name="email" id="email">
+    <br><br>
+    <label for="password">Password: *</label>
+    <input type="password" name="password" id="password">
+    <br><br>
+    <label for="confirm">Confirm Password: *</label>
+    <input type="password" name="confirm" id="confirm">
+    <br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" name="dob" id="dob">
+    <br>
+    <p><strong>Gender Identity:</strong></p>
+    <input type="radio" name="gender_identity" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender_identity" id="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender_identity" id="non-binary">
+    <label for="non-binary">Non-Binary</label>
+    <input type="radio" name="gender_identity" id="noanswer">
+    <label for="noanswer">I prefer not to answer</label>
+    <br>
+    <p>A short description about myself:</p>
+    <textarea name="description" id="description" cols="40" rows="4"></textarea>
+    <br>
+    <p>Favorite Language:
+        <select name="snack">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>MERN</option>
+            <option>Ruby</option>
+        </select>
+    </p>
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">Yes, I would like to receive periodic email updates</label>
+    <br><br>
+    <input type="submit" value="Create Account" >
+    <br>
+    <p>* Indicates a required field</p>
+
+
+</body>
+</html>
